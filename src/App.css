@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  'Lucida Sans', Arial, sans-serif;
 }
 
 body {
@@ -11,10 +11,11 @@ body {
     90deg,
     rgb(27, 107, 7) 0%,
     rgb(85, 238, 79) 100%
-  );
-}
-.todo-app {
-  display: flex;
+    );
+  }
+
+  .todo-app {
+    display: flex;
   flex-direction: column;
   justify-content: start;
   width: 520px;

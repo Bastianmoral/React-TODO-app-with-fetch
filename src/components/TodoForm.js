@@ -24,21 +24,10 @@ const handleSubmit = (e) => {
 
     return (
         <form className="todo-form" onSubmit={handleSubmit}>
-            {props.edit ? (
-                <>
-            <input
-            placeholder="Update or fix your todo" 
-            value={input} 
-            name='text' 
-            className='todo-input edit'
-            onChange={handleChange}
-            />
-            <button className ="todo-button edit">Update</button>    
-            </>        
-            ) : (
+            
             <>
             <input  
-            placeholder="what's need to be done" 
+            placeholder="No tasks, add a task" 
             value={input} 
             name='text' 
             className='todo-input'
@@ -46,7 +35,6 @@ const handleSubmit = (e) => {
             />
             <button className ="todo-button">add Todo</button>
             </>
-            )}
         </form>
     );
 }
