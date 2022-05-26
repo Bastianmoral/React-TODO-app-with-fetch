@@ -1,21 +1,10 @@
 # React Todo list realizado
 
-In this proyect i made a todo list from zero. 
+En este proyecto se continuó con el todo list creado anteriormente. 
 
-The process was made by components creating a folder inside /src 
+Sin embargo, ahora había que hacer un fetch y trabajar con una API falsa con la finalidad que cada vez que se actualizara la lista 
 
-The first componente "Todo.js" contain the function Todo, and a hook (useState) 
-for the diferents posible actions to make. [completeTodo, removeTodo, updateTodo]
-
-The second components "TodoForm.js" contain the function TodoForm, and this work for 
-make a new todo or update de todo. 
-
-The last component "TodoList" contain all the variables created in Todo.js for give this a functionality
-
-Finaly made the style whit CSS 
-
-And concatenate all the components in the App.jsx for rendering in the index.js
-
+también se actualizara la API. 
 
 
 # This proyect was made for the 4Geeks Bootcamp 2021
