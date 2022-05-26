@@ -1,11 +1,14 @@
 import React, {useState} from 'react'
 
 function TodoForm(props) {
+
 const [input, setInput] = useState(props.edit ? props.edit.value : ''); // HOOKS Y EL PROPS QUE PERMITE QUE EL UPDATE SEA DIFERENTE. 
+
 
 const handleChange = (e) => {  
     setInput(e.target.value);
 }; // FUNCION QUE NOS PERMITE GUARDAR LOS CAMBIOS
+
 
 const handleSubmit = (e) => {
     e.preventDefault();

@@ -1,8 +1,7 @@
 import { BsFillTrashFill } from "react-icons/bs";
 
 
-function Todo ({todos, completeTodo, removeTodo}) {
-
+function Todo ({todos, completeTodo, removeTodo, getTodosFromApi, updateToDo}) {
 
     return todos.map((todo, index) => (
         <div 
